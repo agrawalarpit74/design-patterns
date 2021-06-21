@@ -24,12 +24,6 @@ public class Registry {
     }
 
     public Item createItem(ItemType itemType){
-        Item item = null;
-        if(ItemType.ROLLERSKATES.equals(itemType)){
-            item = new RollerSkates((RollerSkates) registry.get(itemType));
-        }else if(ItemType.MOBILE.equals(itemType)){
-            item = new Mobile((Mobile) registry.get(itemType));
-        }
-        return item;
+        return registry.get(itemType).copy();
     }
 }

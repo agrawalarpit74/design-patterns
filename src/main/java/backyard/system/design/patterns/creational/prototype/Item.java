@@ -11,4 +11,6 @@ public abstract class Item  {
      String name;
      double price;
      String description;
+
+     abstract Item copy();
 }

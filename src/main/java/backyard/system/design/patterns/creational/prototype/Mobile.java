@@ -23,4 +23,9 @@ public class Mobile extends Item{
         this.description=description;
         this.screenDescription=screenDescription;
     }
+
+    @Override
+    Item copy() {
+        return new Mobile(this);
+    }
 }

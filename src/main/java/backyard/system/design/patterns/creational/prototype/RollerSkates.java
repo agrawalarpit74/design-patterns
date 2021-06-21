@@ -25,4 +25,10 @@ public class RollerSkates extends Item{
         this.description=description;
         this.numberOfWheels=numberOfWheels;
     }
+
+
+    @Override
+    Item copy() {
+        return new RollerSkates(this);
+    }
 }
