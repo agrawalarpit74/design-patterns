@@ -3,16 +3,16 @@ Implementation of different design patterns used in object oriented world
 ====================
 
 ## Creational
-* ###Singleton
+* ### Singleton
   Real world example -> 
     LogManager, Database connections,Config files and java.lang.Runtime#getRuntime()
-* ###Builder
+* ### Builder
     Real world example -> StringBuilder, javax.json.JsonBuilder,Custom SqlQueryBuilder
-* ###Prototype
+* ### Prototype
     Usage - Scenario where creation of new objects is costly. 
-* ###Factory
+* ### Factory
     Real world example ->java.util.Calendar#getInstance()
-* ###Abstract factory
+* ### Abstract factory
     Real world example -> javax.xml.parsers.DocumentBuilderFactory#newInstance()
 
 ## Structural
