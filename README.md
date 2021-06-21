@@ -17,6 +17,8 @@ Implementation of different design patterns used in object oriented world
 
 ## Structural
 * ### Adaptor
+  Real world example -> 
+    Making Arrays compatible with Lists, Streams API compatible with other Java streams
 * ### Bridge
 * ### Composite
 * ### Decorator
